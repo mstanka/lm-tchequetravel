@@ -1,0 +1,45 @@
+body {
+  font-family: $font-family;
+  line-height: 1.6;
+  font-size: 17px;
+  background: $light-color;
+  color: $dark-color;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+
+  @include media-md {
+    font-size: 2.6rem;
+    line-height: 1.2;
+  }
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+  padding-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+  max-width: 350px;
+  max-height: 350px;
+
+  @include media-md {
+    max-width: 500px;
+  }
+}

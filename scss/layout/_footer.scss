@@ -1,0 +1,35 @@
+// Footer
+#main-footer {
+  color: $primary-color;
+  background: $secondary-color;
+  text-align: center;  
+   
+  .footer-links {
+    margin: 0 auto;
+
+    @include flexCenter(column);   
+    padding: 2rem 1rem;
+
+    @include media-md {
+      max-width: $website-width;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .link {
+      padding: .2rem;
+
+      &:hover {
+        color: $secondary-color;
+        background: $primary-color;
+        border-radius: 3px;
+      }
+    }
+  }
+
+
+  .footer-atribution {
+    padding: 1rem;
+    text-align: center;
+   }
+}
