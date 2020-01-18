@@ -26,7 +26,7 @@ ul {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -371,6 +371,36 @@ header {
 .contact .item .item-detail {
   padding-top: 1rem;
   font-weight: 600;
+}
+
+.accommodation {
+  height: 60vh;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.teaching-czech {
+  height: 60vh;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.real-estate {
+  height: 60vh;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.travel-guide {
+  height: 60vh;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.travel-lectures {
+  height: 60vh;
+  text-align: center;
+  padding: 3rem 0;
 }
 
 #main-footer {
