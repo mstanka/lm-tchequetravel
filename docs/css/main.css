@@ -57,6 +57,18 @@ img {
   }
 }
 
+.bg-primary {
+  background-color: #272343;
+}
+
+.bg-secondary {
+  background-color: #ffd803;
+}
+
+.bg-tertiary {
+  background-color: #bae8e8;
+}
+
 header {
   background: #ffd803;
 }
@@ -374,9 +386,38 @@ header {
 }
 
 .accommodation {
-  height: 60vh;
   text-align: center;
   padding: 3rem 0;
+}
+
+.accommodation h2 {
+  padding: 2rem;
+}
+
+.accommodation__section {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.accommodation__section .accommodation__card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.accommodation__section .accommodation__card .accommodation__image {
+  -webkit-transform: translate(-5%, -5%);
+          transform: translate(-5%, -5%);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.accommodation__section .accommodation__card .accommodation__image:hover {
+  -webkit-transform: translate(5%, 5%);
+          transform: translate(5%, 5%);
+}
+
+.accommodation__section .accommodation__card .accommodation__details {
+  padding: 3rem;
 }
 
 .teaching-czech {

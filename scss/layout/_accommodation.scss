@@ -1,5 +1,30 @@
 .accommodation {
-  height: 60vh;
   text-align: center;
-  padding: 3rem 0;
-}  
+  padding: 3rem 0; 
+  
+  h2 {
+    padding: 2rem;
+  }
+} 
+
+.accommodation__section {  
+  position: relative; 
+  margin-bottom: 4rem;  
+
+  .accommodation__card {
+    max-width: 500px;
+    margin: 0 auto;
+    
+    .accommodation__image {
+      transform: translate(-5%, -5%);
+      transition: all .5s;
+      
+      &:hover {
+        transform: translate(5%, 5%);
+      }
+    }    
+    .accommodation__details {
+      padding: 3rem;
+    }    
+  }
+}
