@@ -430,6 +430,7 @@ header {
 }
 
 .teaching-czech {
+  height: 100vh;
   text-align: center;
   padding: 3rem 0;
 }
@@ -447,6 +448,7 @@ header {
 }
 
 .real__estate {
+  height: 100vh;
   text-align: center;
   padding: 3rem 0;
   margin-bottom: 5rem;
@@ -522,7 +524,7 @@ header {
 }
 
 .travel__lectures {
-  height: 60vh;
+  height: 100vh;
   text-align: center;
   padding: 3rem 0;
 }
