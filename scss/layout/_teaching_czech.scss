@@ -1,5 +1,16 @@
 .teaching-czech {
-  height: 60vh;
   text-align: center;
   padding: 3rem 0;
-}  
+} 
+
+.czech-language {
+  padding: 3rem;
+
+  h1 {
+    border-bottom: 1px solid $dark-color;
+  }
+
+  h2 {
+    padding: 2rem 0;
+  }
+}

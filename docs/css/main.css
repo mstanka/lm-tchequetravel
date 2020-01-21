@@ -27,11 +27,12 @@ ul {
 
 h1 {
   font-size: 1.8rem;
+  letter-spacing: .07rem;
 }
 
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     line-height: 1.2;
   }
 }
@@ -67,6 +68,14 @@ img {
 
 .bg-tertiary {
   background-color: #bae8e8;
+}
+
+.bg-tertiary-light {
+  background-color: #e3f6f5;
+}
+
+.highlight {
+  font-weight: 600;
 }
 
 header {
@@ -232,10 +241,6 @@ header {
 
 .about__text p {
   padding-bottom: 2rem;
-}
-
-.about__text p .highlight {
-  font-weight: 600;
 }
 
 .about__text .banner {
@@ -407,8 +412,8 @@ header {
 .accommodation__section .accommodation__card .accommodation__image {
   -webkit-transform: translate(-5%, -5%);
           transform: translate(-5%, -5%);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .accommodation__section .accommodation__card .accommodation__image:hover {
@@ -420,28 +425,110 @@ header {
   padding: 3rem;
 }
 
+.accommodation__section .accommodation__card .accommodation__details h3 {
+  border-bottom: 1px solid #2d334a;
+}
+
 .teaching-czech {
-  height: 60vh;
   text-align: center;
   padding: 3rem 0;
 }
 
-.real-estate {
-  height: 60vh;
+.czech-language {
+  padding: 3rem;
+}
+
+.czech-language h1 {
+  border-bottom: 1px solid #2d334a;
+}
+
+.czech-language h2 {
+  padding: 2rem 0;
+}
+
+.real__estate {
   text-align: center;
   padding: 3rem 0;
+  margin-bottom: 5rem;
+}
+
+.real__estate-intro {
+  padding: 2rem 1.4rem;
 }
 
 .travel-guide {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.guide__geneva {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.guide__geneva h2 {
+  border-bottom: 1px solid #2d334a;
+}
+
+.guide__geneva h3 {
+  font-style: italic;
+  padding: 2rem 0;
+}
+
+.guide__geneva-img {
+  padding: 1rem;
+}
+
+.guide__geneva-img img {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.guide__geneva-img img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.guide__geneva p {
+  padding: 2rem 0;
+}
+
+.guide__geneva .banner {
+  background: #ffd803;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.guide__geneva .banner .link {
+  color: #272343;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1rem;
+  border: 1px solid #ffd803;
+  border-radius: 5px;
+  outline: none;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  padding: 1rem 3rem;
+}
+
+.guide__geneva .banner .link:hover {
+  background: #272343;
+  color: #ffd803;
+}
+
+.travel__lectures {
   height: 60vh;
   text-align: center;
   padding: 3rem 0;
 }
 
-.travel-lectures {
-  height: 60vh;
-  text-align: center;
-  padding: 3rem 0;
+.travel__lectures-intro {
+  padding: 2rem;
 }
 
 #main-footer {
@@ -493,5 +580,6 @@ header {
 #main-footer .footer-atribution {
   padding: 1rem;
   text-align: center;
+  font-size: .8rem;
 }
 /*# sourceMappingURL=main.css.map */

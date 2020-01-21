@@ -42,20 +42,11 @@
     }
 
     p {
-      padding-bottom: 2rem; 
-      
-      .highlight {
-        font-weight: 600;
-      }
+      padding-bottom: 2rem;    
     }
 
     .banner {
-      background: $secondary-color;      
-      max-width: 400px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 1rem;
-      border-radius: 5px;
+      @include banner;
       
       .link {
         @include btn-link;

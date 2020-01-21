@@ -1,5 +1,50 @@
 .travel-guide {
-  height: 60vh;
   text-align: center;
   padding: 3rem 0;
+}
+
+.guide__geneva {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+
+
+  h2 {
+    border-bottom: 1px solid $dark-color;
+  }
+
+  h3 {
+    font-style: italic;
+    padding: 2rem 0;
+  }
+
+  &-img {
+    padding: 1rem;
+
+    img {
+      transition: all .3s ease-in-out;
+
+      &:hover {    
+        transform: scale(1.02);  
+      }
+    } 
+  }  
+
+  p {
+    padding: 2rem 0;
+  }
+
+  .banner {
+    @include banner;
+
+    .link {
+      @include btn-link;
+      padding: 1rem 3rem;
+
+      &:hover {
+        background: $primary-color; 
+        color: $secondary-color;
+      }
+    } 
+  }
 }

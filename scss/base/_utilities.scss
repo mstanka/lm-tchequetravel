@@ -18,9 +18,10 @@ ul {
 
 h1 {
   font-size: 1.8rem;
+  letter-spacing: .07rem;
 
   @include media-md {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     line-height: 1.2;
   }
 }
@@ -54,4 +55,12 @@ img {
 
 .bg-tertiary {
   background-color: $tertiary-color;
+}
+
+.bg-tertiary-light {
+  background-color: $tertiary-color-light;
+}
+
+.highlight {
+  font-weight: 600;
 }

@@ -17,7 +17,7 @@
     
     .accommodation__image {
       transform: translate(-5%, -5%);
-      transition: all .5s;
+      transition: all 1s;
       
       &:hover {
         transform: translate(5%, 5%);
@@ -25,6 +25,10 @@
     }    
     .accommodation__details {
       padding: 3rem;
+
+      h3 {
+        border-bottom: 1px solid $dark-color;
+      }
     }    
   }
 }
