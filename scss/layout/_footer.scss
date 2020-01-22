@@ -4,7 +4,7 @@
   background: $secondary-color;
   text-align: center; 
    
-  .footer-links {
+  .footer__links {
     margin: 0 auto;
 
     @include flexCenter(column);   
@@ -23,6 +23,15 @@
         color: $secondary-color;
         background: $primary-color;
         border-radius: 3px;
+      }
+    }
+
+    .link-countries {
+      @include flexCenter(row);
+      padding: 1rem 0;
+
+      .country {
+        margin: .5rem;
       }
     }
   }
