@@ -1,0 +1,52 @@
+.index {
+  max-width: 1024px;
+  margin: 0 auto;
+  @include flexCenter(column);
+  
+
+
+  .index__container {
+
+
+    .index__logo {
+      padding: 3rem;
+      
+      img {
+        width: 500px;  
+      }    
+    }
+
+    .link-countries {
+      margin: 6rem 0;
+
+      @include flexCenter(row);
+    
+      .country {
+        margin: .5rem;
+
+        img {
+          max-height: 6rem;
+          width: auto;
+        }
+      }
+    } 
+  }
+
+  .contact__items {
+
+    .item {
+      
+      i {
+       color: $primary-color;
+       transition: all .3s ease-in;
+
+       &:hover {
+         color: lighten($primary-color, 20%);
+         cursor: pointer;
+       }
+     } 
+     
+    }  
+  }
+}
+

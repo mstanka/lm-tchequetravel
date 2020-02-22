@@ -78,6 +78,69 @@ img {
   font-weight: 600;
 }
 
+.index {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.index .index__container .index__logo {
+  padding: 3rem;
+}
+
+.index .index__container .index__logo img {
+  width: 500px;
+}
+
+.index .index__container .link-countries {
+  margin: 6rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.index .index__container .link-countries .country {
+  margin: .5rem;
+}
+
+.index .index__container .link-countries .country img {
+  max-height: 6rem;
+  width: auto;
+}
+
+.index .contact__items .item i {
+  color: #272343;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.index .contact__items .item i:hover {
+  color: #4e4686;
+  cursor: pointer;
+}
+
 header {
   background: #ffd803;
 }
@@ -383,6 +446,7 @@ header {
 
 .contact .item i:hover {
   color: #272343;
+  cursor: pointer;
 }
 
 .contact .item .item-detail {
@@ -579,7 +643,7 @@ header {
   border-radius: 3px;
 }
 
-#main-footer .footer__links .link-countries {
+#main-footer .link-countries {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -596,7 +660,7 @@ header {
   padding: 1rem 0;
 }
 
-#main-footer .footer__links .link-countries .country {
+#main-footer .link-countries .country {
   margin: .5rem;
 }
 

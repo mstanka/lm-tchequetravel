@@ -25,16 +25,17 @@
         border-radius: 3px;
       }
     }
-
-    .link-countries {
-      @include flexCenter(row);
-      padding: 1rem 0;
-
-      .country {
-        margin: .5rem;
-      }
-    }
   }
+
+.link-countries {
+
+  @include flexCenter(row);
+  padding: 1rem 0;
+
+  .country {
+    margin: .5rem;
+  }
+}
 
   .footer-atribution {
     padding: 1rem;
