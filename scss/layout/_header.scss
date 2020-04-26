@@ -21,6 +21,7 @@ header {
 #main-nav {
   padding: 1rem 0;
   text-align: center;  
+  justify-content: space-between;
     
   @include media-md {
     display: flex;
@@ -28,18 +29,23 @@ header {
   }
    
   ul {
-    //display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     @include media-md {
-      display: flex;
+      flex-direction: row;
     }
   }
 
   li {
-    padding: 1rem .5rem;
+    display: inline-block;
+    text-align: center;
 
     .link {
-      @include btn-link;       
+      @include btn-link;  
+      padding: 0;     
 
     &:hover {
       background: $primary-color;
